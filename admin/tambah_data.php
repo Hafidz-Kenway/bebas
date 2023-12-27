@@ -49,7 +49,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 col-sm-4 control-label">Review Toko</label>
                                     <div class="col-sm-6">
-                                        <input name="harga_tiket" class="form-control" type="text" type="text" placeholder="Review Toko" required />
+                                        <input name="review_toko" class="form-control" type="text" type="text" placeholder="Review Toko" required />
                                     </div>
                                 </div>
                                 <div class="form-group">

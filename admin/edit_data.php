@@ -65,7 +65,7 @@
                                     <div class="form-group">
                                         <label class="col-sm-2 col-sm-2 control-label">Review Toko</label>
                                         <div class="col-sm-8">
-                                            <input name="harga_tiket" class="form-control" type="text" id="harga_tiket" type="text" value="<?php echo $data['review_toko']; ?>" required />
+                                            <input name="review_toko" class="form-control" type="text" id="review_toko" type="text" value="<?php echo $data['review_toko']; ?>" required />
                                         </div>
                                     </div>
                                     <div class="form-group">
