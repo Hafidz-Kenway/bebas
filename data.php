@@ -22,7 +22,7 @@ include_once "koneksi.php"; ?>
           </thead>
           <tbody>
             <?php
-            $data = file_get_contents('http://localhost/SIG-WISATA/ambildata.php');
+            $data = file_get_contents('http://localhost/bebas/ambildata.php');
             $no = 1;
             if (json_decode($data, true)) {
               $obj = json_decode($data);
