@@ -15,7 +15,7 @@ foreach ($obj->results as $item) {
   $nama_wisata .= $item->nama_wisata;
   $alamat .= $item->alamat;
   $deskripsi .= $item->deskripsi;
-  $harga_tiket .= $item->harga_tiket;
+  $harga_tiket .= $item->review_toko;
   $lat .= $item->latitude;
   $long .= $item->longitude;
 }
@@ -111,12 +111,12 @@ $title = "Detail dan Lokasi : " . $nama_wisata;
                   <h5><?php echo $deskripsi ?></h5>
                 </td>
               </tr>
-              <!-- <tr>
-                <td>Harga Tiket</td>
+              <tr>
+                <td>Review Toko</td>
                 <td>
-                  <h5>Rp. <?php echo $harga_tiket ?></h5>
+                  <h5><?php echo $harga_tiket ?></h5>
                 </td>
-              </tr> -->
+              </tr>
             </table>
           </div>
         </div>

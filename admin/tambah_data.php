@@ -16,7 +16,7 @@
                 <div class="container-fluid">
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Tambah Data Tempat Wisata</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Tambah Data Toko Buku</h1>
                     </div>
 
                     <!-- DataTales Example -->
@@ -29,9 +29,9 @@
                             <!-- Main content -->
                             <form class="form-horizontal style-form" style="margin-top: 10px;" action="tambah_aksi.php" method="post" enctype="multipart/form-data" name="form1" id="form1">
                                 <div class="form-group">
-                                    <label class="col-sm-2 col-sm-2 control-label">Nama Wisata</label>
+                                    <label class="col-sm-2 col-sm-2 control-label">Nama Toko</label>
                                     <div class="col-sm-6">
-                                        <input name="nama_wisata" type="text" class="form-control" placeholder="Nama Wisata" required />
+                                        <input name="nama_wisata" type="text" class="form-control" placeholder="Nama Toko" required />
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -47,21 +47,21 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 col-sm-4 control-label">Harga Tiket</label>
+                                    <label class="col-sm-2 col-sm-4 control-label">Review Toko</label>
                                     <div class="col-sm-6">
-                                        <input name="harga_tiket" class="form-control" type="text" type="text" placeholder="Harga Tiket" required />
+                                        <input name="harga_tiket" class="form-control" type="text" type="text" placeholder="Review Toko" required />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 col-sm-4 control-label">Latitude</label>
                                     <div class="col-sm-6">
-                                        <input name="latitude" class="form-control" type="text" placeholder="-7.3811577" required />
+                                        <input name="latitude" class="form-control" type="text" placeholder="Latitude" required />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 col-sm-4 control-label">Longitude</label>
                                     <div class="col-sm-6">
-                                        <input name="longitude" class="form-control" type="text" placeholder="109.2550945" required />
+                                        <input name="longitude" class="form-control" type="text" placeholder="Longitude" required />
                                     </div>
                                 </div>
                                 <div class="form-group" style="margin-bottom: 20px;">

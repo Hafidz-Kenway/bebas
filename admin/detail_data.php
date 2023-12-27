@@ -32,12 +32,12 @@ if (empty($_SESSION['username'])) {
                 <div class="container-fluid">
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Detail Wisata <?php echo $data['nama_wisata']; ?></h1>
+                        <h1 class="h3 mb-0 text-gray-800">Detail Toko Buku <?php echo $data['nama_wisata']; ?></h1>
                     </div>
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Detail Wisata</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Detail Toko Buku</h6>
                         </div>
                         <div class="card-body">
 
@@ -45,7 +45,7 @@ if (empty($_SESSION['username'])) {
                             <div class="panel-body">
                                 <table id="example" class="table table-hover table-bordered">
                                     <tr>
-                                        <td width="250">Nama Wisata</td>
+                                        <td width="250">Nama Toko</td>
                                         <td width="550"><?php echo $data['nama_wisata']; ?></td>
                                     </tr>
                                     <tr>
@@ -57,8 +57,8 @@ if (empty($_SESSION['username'])) {
                                         <td><?php echo $data['deskripsi']; ?></td>
                                     </tr>
                                     <tr>
-                                        <td>Harga Tiket</td>
-                                        <td>Rp. <?php echo $data['harga_tiket']; ?></td>
+                                        <td>Review Toko</td>
+                                        <td><?php echo $data['review_toko']; ?></td>
                                     </tr>
                                     <tr>
                                         <td>Latitude</td>

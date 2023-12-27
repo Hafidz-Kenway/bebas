@@ -29,7 +29,7 @@ include "../koneksi.php";
                     <center><b>SISTEM INFORMASI GEOGRAFIS </b> </center>
                 </h2>
                 <h2>
-                    <center><b>OBJEK WISATA KABUPATEN BANYUMAS </b> </center>
+                    <center><b>TOKO BUKU WILAYAH SEMARANG </b> </center>
                 </h2>
                 <h2>
                     <center><a href="../index.php"><button class="btn btn-primary" type="button" href="../index.php">Lihat Web</button></a></center>

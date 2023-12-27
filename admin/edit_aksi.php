@@ -7,7 +7,7 @@ $id = $_POST['id_wisata'];
 $nama = $_POST['nama_wisata'];
 $alamat = $_POST['alamat'];
 $deskripsi = $_POST['deskripsi'];
-$harga_tiket = $_POST['harga_tiket'];
+$harga_tiket = $_POST['review_toko'];
 $latitude = $_POST['latitude'];
 $longitude = $_POST['longitude'];
 

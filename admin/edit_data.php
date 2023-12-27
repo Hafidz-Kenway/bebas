@@ -16,7 +16,7 @@
                 <div class="container-fluid">
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Edit Data Tempat Wisata</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Edit Data Toko Buku</h1>
                     </div>
 
                     <!-- DataTales Example -->
@@ -37,14 +37,14 @@
                             <div class="panel-body">
                                 <form class="form-horizontal style-form" style="margin-top: 20px;" action="edit_aksi.php" method="post" enctype="multipart/form-data" name="form1" id="form1">
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">ID Wisata</label>
+                                        <label class="col-sm-2 col-sm-2 control-label">ID Toko</label>
                                         <div class="col-sm-8">
                                             <input name="id_wisata" type="text" id="id_wisata" class="form-control" value="<?php echo $data['id_wisata']; ?>" readonly />
                                             <!--<span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>-->
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Nama Wisata</label>
+                                        <label class="col-sm-2 col-sm-2 control-label">Nama Toko</label>
                                         <div class="col-sm-8">
                                             <input name="nama_wisata" type="text" id="nama_wisata" class="form-control" value="<?php echo $data['nama_wisata']; ?>" required />
                                         </div>
@@ -63,9 +63,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Harga Tiket</label>
+                                        <label class="col-sm-2 col-sm-2 control-label">Review Toko</label>
                                         <div class="col-sm-8">
-                                            <input name="harga_tiket" class="form-control" type="text" id="harga_tiket" type="text" value="<?php echo $data['harga_tiket']; ?>" required />
+                                            <input name="harga_tiket" class="form-control" type="text" id="harga_tiket" type="text" value="<?php echo $data['review_toko']; ?>" required />
                                         </div>
                                     </div>
                                     <div class="form-group">

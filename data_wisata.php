@@ -36,7 +36,7 @@
                     <th width="5%">No.</th>
                     <th width="30%">Nama Toko Buku</th>
                     <th width="30%">Alamat</th>
-                    <!-- <th width="20%">Harga Tiket</th> -->
+                    <th width="20%">Review Toko</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -51,7 +51,7 @@
                         <td><?php echo $no; ?></td>
                         <td><?php echo $item->nama_wisata; ?></td>
                         <td><?php echo $item->alamat; ?></td>
-                        <!-- <td>Rp. <?php echo $item->harga_tiket; ?></td> -->
+                        <td><?php echo $item->review_toko; ?></td>
                         <td class="ctr">
                           <div class="btn-group">
                             <a href="detail.php?id_wisata=<?php echo $item->id_wisata; ?>" rel="tooltip" data-original-title="Lihat File" data-placement="top" class="btn btn-primary">

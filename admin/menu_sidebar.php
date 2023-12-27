@@ -28,7 +28,7 @@
     <li class="nav-item">
         <a class="nav-link" href="tampil_data.php">
             <i class="fas fa-fw fa-user-friends"></i>
-            <span>Data Wisata</span></a>
+            <span>Data Toko Buku</span></a>
     </li>
 
     <li class="nav-item">

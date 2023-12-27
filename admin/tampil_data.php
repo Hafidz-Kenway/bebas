@@ -26,7 +26,7 @@ include "../koneksi.php";
 
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Data Wisata Kabupaten Banyumas</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Data Toko Buku Wilayah Semarang</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -34,9 +34,9 @@ include "../koneksi.php";
                                     <thead>
                                         <tr>
                                             <th>NO</th>
-                                            <th>Nama Wisata</th>
+                                            <th>Nama Toko</th>
                                             <th>Alamat</th>
-                                            <th>Harga Tiket</th>
+                                            <th>Review Toko</th>
                                             <th>Latitude</th>
                                             <th>Longitude</th>
                                             <th>Aksi</th>
@@ -53,7 +53,7 @@ include "../koneksi.php";
                                                 <td><?php echo $no ?></td>
                                                 <td><b><a href="detail_data.php?id_wisata=<?php echo $d['id_wisata']; ?> "> <?php echo $d['nama_wisata']; ?> </a> </b></td>
                                                 <td><?php echo $d['alamat']; ?></td>
-                                                <td>Rp. <?php echo $d['harga_tiket']; ?></td>
+                                                <td>Rp. <?php echo $d['review_toko']; ?></td>
                                                 <td><?php echo $d['latitude']; ?></td>
                                                 <td><?php echo $d['longitude']; ?></td>
                                                 <td>
